@@ -1,9 +1,11 @@
 import random
+import string
 
 def  password(n):
     word=''
+    abc=string.ascii_lowercase
     for i in range (0,n):
-        word+=str(random.randint(0,10))
+        word+=abc[random.randint(0,len(abc)-1)]
     return word
 
 print(password(10))
