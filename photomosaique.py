@@ -17,7 +17,7 @@ def gris(p):
     return np.uint8(round(p.mean()))
 
 #Q5
-#Il s'agit d'un tableau à 3 dimmensions, représentant une image de 4000 x 3000  (3000  pixels de haut et 4000 de large), de profondeur 3. source(0,0) représente le pixel le plus à gauche ; il est bleu clair.
+#Il s'agit d'un tableau à 3 dimmensions, représentant une image de 4000 x 3000  (3000  pixels de haut et 4000 de large), de profondeur 3. source(0,0) représente le pixel le plus à gauche ; il est bleu foncé.
 
 #Q6
 def conversion(a):
