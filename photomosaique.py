@@ -24,3 +24,16 @@ def conversion(a):
     return np.uint8(a.mean(2).round())
 
 #Q7
+#La taille des vignettes sera de 375 x 500 pixels. La taille de la photomosaïque sera de 15000 x 20000 pixels
+
+#Q8
+def procheVoisin(A,w,h):
+    H,W=A.shape
+    res=np.zeros((h,w),np.uints)
+    for i in range(h):
+        for j in range(w):
+            res[i,j]=A[i*H//h,j*W//w]
+    return res
+
+#Q9
+
